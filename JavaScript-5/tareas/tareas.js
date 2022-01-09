@@ -37,16 +37,6 @@ function agregarStringInvertida() {
   // 'alumno'.reverse() => 'onmula'
   // Pista: Necesitarás usar "this" dentro de "reverse"
   String.prototype.reverse = function () {
-    //todo
-    //no funciona
-    // const revArray = [];
-    // const length = String.length - 1;
-    // for (let i = length; i >= 0; i--) {
-    //   revArray.push(String[i]);
-    // }
-    // return revArray.join('');
-
-    //return Constructor.prototype.split('').reverse().join('')
     return this.split("").reverse().join("");
   }
 }
